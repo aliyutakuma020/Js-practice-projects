@@ -29,3 +29,22 @@ function capitalize(str)
 }
 var city = "paris";
 var capital = capitalize(city);
+/*
+ * * To check if the input is equal to number
+ * * and that's not a string. 
+ * * returns values
+ * */
+function capitalize(input)
+{
+	    if (typeof input === "number")
+		    {
+			        return "that's not a string!"
+				    }
+	return input.charAt(0).toUpperCase() + input.slice(1)
+}
+var city = "paris";
+var capital = capitalize(city);
+
+var num = 37;
+var capital = capitalize(num);
+
