@@ -7,14 +7,14 @@ var nums = [23, 56, 89, 89]
 console.log(nums.length);
 
  /**Built-in methods 
-  *   * push/pop
-  *     * shift/unshift
-  *       * indexOf
-  *         * slice
-  *           */
+  *push/pop
+  *shift/unshift
+  *indexOf
+  *slice
+  */
 
-	 /**Use push to add to the end of an array*/
-	var colors = ["red", "orange", "yellow"]
+ /**Use push to add to the end of an array*/
+var colors = ["red", "orange", "yellow"]
 colors.push("green");
 console.log(colors);
 
